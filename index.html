@@ -7,12 +7,14 @@
 <title>CSS</title>
 </head>
 <body>
-    <header class="header">
-        <ul>
-            <li><a class="active" href="#home">About</a></li>
-            <li><a href="#news">Drawings</a></li>
-          </ul>
-    </header>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     <div class="row">
         <div class="column link">Links</div>
         <div class="column description">pic description</div>
@@ -23,6 +25,16 @@
         <a href="#" class="fa fa-twitter"></a>
     </footer>
 
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 
 </body>
 </html>
