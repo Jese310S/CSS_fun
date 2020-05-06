@@ -8,26 +8,29 @@
 </head>
 <body>
     <!-- side navbar -->
-    <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
-        <h3 class="w3-padding-64 w3-center"><b>SOME<br>NAME</b></h3>
-        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
-        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a> 
-        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a> 
+    <nav class="sidebar bar-block white animate-left text-grey collapse top center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+        <h3 class="padding-64 center"><b>CSS<br>Fun</b></h3>
+        <a href="javascript:void(0)" onclick="close()" class="bar-item button padding hide-large">CLOSE</a>
+        <a href="#" onclick="close()" class="bar-item button">PORTFOLIO</a> 
+        <a href="#about" onclick="close()" class="bar-item button">ABOUT</a> 
       </nav>
+      <!-- nav for small screens -->
+      <nav class="sidebar bar-block white animate-left text-grey collapse top center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+        <h3 class="padding-64 center"><b>CSS<br>Fun</b></h3>
+        <a href="javascript:void(0)" onclick="close()" class="bar-item button padding hide-large">CLOSE</a>
+        <a href="#" onclick="close()" class="bar-item button">PORTFOLIO</a> 
+        <a href="#about" onclick="close()" class="bar-item button">ABOUT</a> 
+      </nav>
+
 
       <!-- main row container -->
       <div class="row">
-          <!-- column 1 -->
-        <div class="column col-1 link">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-        </div>
-        <!-- column 2 -->
+
+        <!-- column 1 -->
         <div class="column col-2 description">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <!-- colum 3 -->
+        <!-- colum 2 -->
         <div class="column col-3 drawing">
             <img src="http://placekitten.com/200/300" alt="kitten image">
         </div>
