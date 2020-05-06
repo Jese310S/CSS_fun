@@ -60,9 +60,6 @@
     }
   }
 
-.row {
-    background-color: darkgrey;
-}
 
 .column {
   background-color:#e5e5e5;
@@ -71,19 +68,23 @@
   padding:15px;
   margin-top:7px;
   text-align:center;
-  border: 2px black;
+  border: 2px solid black;
 }
 
 .link {
-
+    width: 20%;
+    float: left;
 }
 
 .description {
+    width:40%;
+    float: left;
 
 }
 
 .drawing {
-
+    width: 40%;
+    float: left;
 }
 
 .footer {
